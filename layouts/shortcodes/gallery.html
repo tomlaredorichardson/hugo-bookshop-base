@@ -1,8 +1,10 @@
-<div class="grid grid-cols-3">
-  {{ range .Page.Params.resources }}
-  <div>
-    <p>{{.alt}}</p>
-    <img class="max-w-xs" src="{{.src}}" alt="{{.alt}}" />
+<div class="container">
+  <div class="row">
+    {{ range .Page.Params.resources }}
+    <div class="col-3">
+      <p>{{.alt}}</p>
+      <img class="img-fluid" src="{{.src}}" alt="{{.alt}}" />
+    </div>
+    {{end}}
   </div>
-  {{end}}
 </div>
