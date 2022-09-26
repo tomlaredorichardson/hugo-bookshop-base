@@ -12,12 +12,10 @@ blueprint:
   preheading: "We are creative & expert people"
   heading: "We work with business & provide solution to client with their business problem"
   sections:
-      heading: "Modern & Responsive design"
+    - heading: "Modern & Responsive design"
       text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ducimus."
-      heading: "Awarded licensed company"
-      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ducimus."
-      heading: "Build your website Professionally"
-      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ducimus."
+    - heading2: "Awarded licensed company"
+      text2: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ducimus."
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
