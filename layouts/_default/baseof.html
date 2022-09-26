@@ -5,6 +5,10 @@
   </head>
   <body class="page">
     {{ partial "header.html" }}
+    <div class="d-flex">
+      <a class="mx-3" href="{{ .Site.Data.company.facebook }}">FB</a>
+      <a class="mx-3" href="{{ .Site.Data.company.twitter }}">Twit</a>
+    </div>
     <main class="main-content">{{ block "main" . }}{{ end }}</main>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"

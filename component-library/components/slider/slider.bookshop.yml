@@ -11,7 +11,6 @@ spec:
 blueprint:
   preheading: "Prepare for a new future"
   heading: "Our work is a <br>presentation of our <br>capabilities."
-  background_image: "http://placekitten.com/800/1200"
   link:
     text: "Get started"
     url: "#"
