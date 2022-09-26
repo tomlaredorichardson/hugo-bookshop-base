@@ -1,13 +1,25 @@
 {
   "name": "starter-hugo-gallery",
   "version": "1.0.0",
-  "description": "",
+  "description": "A basic hugo page with a gallery.",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomlaredorichardson/starter-hugo-gallery.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tomlaredorichardson/starter-hugo-gallery/issues"
+  },
+  "homepage": "https://github.com/tomlaredorichardson/starter-hugo-gallery#readme",
+  "dependencies": {
+    "@bookshop/browser": "^3.3.0",
+    "@bookshop/generate": "^3.3.0",
+    "@bookshop/hugo-engine": "^3.3.0"
+  }
 }

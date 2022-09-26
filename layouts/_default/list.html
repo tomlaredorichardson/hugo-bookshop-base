@@ -1,4 +1,5 @@
 {{ define "main" }}
 <h2>{{ .Title }}</h2>
-{{ with .Params.slider }} {{ partial "bookshop" (slice "slider" .) }} {{ end }}
-{{ .Content }} {{ end }}
+{{ partial "bookshop_bindings" `.Params.content_blocks` }} {{ partial
+"bookshop_partial" (slice "page" .Params.content_blocks) }} {{.Content }} {{ end
+}}
