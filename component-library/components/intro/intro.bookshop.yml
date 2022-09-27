@@ -9,13 +9,9 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  preheading: "We are creative & expert people"
-  heading: "We work with business & provide solution to client with their business problem"
-  sections:
-    - heading: "Modern & Responsive design"
-      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ducimus."
-    - heading2: "Awarded licensed company"
-      text2: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ducimus."
+  heading:
+  tagline:
+  image:
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
