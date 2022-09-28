@@ -1,6 +1,6 @@
 # Hugo Gallery Starter
 
-A basic hugo page with a gallery.
+A basic hugo page with Bookshop functionality and a gallery page.
 
 If encountering this error:
 
