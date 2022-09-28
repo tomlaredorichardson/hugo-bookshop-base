@@ -4,10 +4,10 @@
     {{ partial "meta.html" . }}
   </head>
   <body class="page">
-    {{ partial "header.html" }}
+    {{ partial "nav.html" . }}
     <div class="d-flex">
-      <a class="mx-3" href="{{ .Site.Data.company.facebook }}">FB</a>
-      <a class="mx-3" href="{{ .Site.Data.company.twitter }}">Twit</a>
+      <a href="{{ .Site.Data.company.facebook }}">FB</a>
+      <a href="{{ .Site.Data.company.twitter }}">Twit</a>
     </div>
     <main class="main-content">{{ block "main" . }}{{ end }}</main>
     <script

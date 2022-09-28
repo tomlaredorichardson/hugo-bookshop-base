@@ -1,16 +1,9 @@
 <nav>
-  <ul class="d-flex justify-content-between list-inline">
-    <li class="px-2">
-      <a href="/">Home</a>
+  <ul class="d-flex">
+    {{ range .Site.Data.nav.menu }}
+    <li class="nav-item">
+      <a class="nav-link" href="{{ .Url }}">{{ .name }}</a>
     </li>
-    <li class="px-2">
-      <a href="/about">About</a>
-    </li>
-    <li class="px-2">
-      <a href="/contact">Contact</a>
-    </li>
-    <li class="px-2">
-      <a href="/gallery">Gallery</a>
-    </li>
+    {{ end }}
   </ul>
 </nav>
