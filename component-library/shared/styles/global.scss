@@ -1,6 +1,10 @@
 // Files in shared/styles will be used as global stylesheets on your site,
 // as well as in the component browser and screenshots.
 
-html, body {
-    
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
 }
