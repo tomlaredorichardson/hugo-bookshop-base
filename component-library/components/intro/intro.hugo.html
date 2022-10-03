@@ -1,5 +1,11 @@
 <section class="intro">
-  <h2 class="heading">{{ .heading | markdownify }}</h2>
-  <span class="tagline">{{ .tagline | markdownify }}</span>
-  <img class="shears-img" src="{{ .image }}" alt="" />
+  <div class="leftright">
+    <div class="intro-text">
+      <h2 class="heading">{{ .heading | markdownify }}</h2>
+      <span class="tagline">{{ .tagline | markdownify }}</span>
+    </div>
+    <div class="intro-image">
+      <img class="shears-img" src="{{ .image }}" alt="{{ .alt }}" />
+    </div>
+  </div>
 </section>

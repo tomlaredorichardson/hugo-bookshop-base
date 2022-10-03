@@ -1,25 +1,41 @@
 .heading {
   color: rgb(26, 137, 43);
-  font-size: 4rem;
+  font-size: 5rem;
+  font-weight: bold;
   line-height: 1;
   margin: 0;
 }
 .tagline {
   color: rgb(59, 59, 61);
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 
 .intro {
   display: grid;
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
   justify-items: left;
   align-items: center;
-  background-color: rgb(249, 249, 251);
+  background-color: rgba(255, 255, 255, 0.247);
+  border-radius: 0.25rem;
+}
+
+.intro-text {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  justify-content: center;
+}
+
+.leftright {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .shears-img {
-  width: 10rem;
+  width: 100%;
   height: auto;
+  border-radius: 0 0.25rem 0.25rem 0;
 }
