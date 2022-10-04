@@ -1,5 +1,3 @@
-{{ define "main" }}
-<h2>{{ .Title }}</h2>
-{{ partial "bookshop_bindings" `.Params.content_blocks` }} {{ partial
-"bookshop_partial" (slice "page" .Params.content_blocks) }} {{.Content }} {{ end
-}}
+{{ define "main" }} {{ partial "bookshop_bindings" `.Params.content_blocks` }}
+{{ partial "bookshop_partial" (slice "page" .Params.content_blocks) }}
+{{.Content }} {{ end }}

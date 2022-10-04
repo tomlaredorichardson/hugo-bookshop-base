@@ -1,0 +1,10 @@
+<nav class="c-nav">
+  <a href="/">
+    <img class="__logo" src="{{ .content.logo }}" />
+  </a>
+  <ul class="__links">
+    {{ range .content.links }}
+    <li><a href="{{ .url }}">{{ .name }}</a></li>
+    {{ end }}
+  </ul>
+</nav>
