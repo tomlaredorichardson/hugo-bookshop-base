@@ -2,6 +2,24 @@
 
 A basic hugo page with Bookshop functionality and a gallery page.
 
+## Getting Started
+
+In your local development environment, run:
+
+```
+npx @bookshop/browser
+```
+
+## Creating a new bookshop component
+
+To create a new bookshop component
+
+```
+npx @bookshop/init --component <name>
+```
+
+## Troubleshooting
+
 If encountering this error:
 
 ```
