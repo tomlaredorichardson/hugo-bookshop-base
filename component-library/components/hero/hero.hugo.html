@@ -1,0 +1,10 @@
+<div class="hero">
+  <img src="{{ .image }}" alt="{{ .image_alt }}" />
+  <div class="inner">
+    {{ with .title }}
+    <h1>{{ . }}</h1>
+    {{ end }} {{ with .tagline }}
+    <p>{{ . }}</p>
+    {{ end }}
+  </div>
+</div>
