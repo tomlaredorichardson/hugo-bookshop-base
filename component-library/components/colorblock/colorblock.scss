@@ -1,19 +1,41 @@
 .c-color-block {
   display: grid;
+  position: relative;
   grid-template-columns: 1fr 1fr;
-  height: 50vh;
+  min-height: 30rem;
   background-color: rgb(145, 128, 253);
   justify-items: center;
-  align-items: center;
 
   .__text {
     color: white;
     font-size: 3rem;
     font-weight: bold;
+    margin-top: 2rem;
   }
   .__subtext {
     color: white;
     font-size: 1rem;
     font-weight: bold;
+  }
+
+  .custom-shape-divider-bottom-1665021783 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+  }
+
+  .custom-shape-divider-bottom-1665021783 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+  }
+
+  .custom-shape-divider-bottom-1665021783 .shape-fill {
+    fill: #ffffff;
   }
 }
