@@ -1,0 +1,12 @@
+<div class="leftright{{if .flip}} flipped{{end}}">
+  <div class="inner">
+    {{ with .title }}
+    <h2>{{ . }}</h2>
+    {{ end }} {{ with .tagline }}
+    <p>{{ . }}</p>
+    {{ end }}
+  </div>
+  <div class="image">
+    <img src="{{ .image }}" alt="{{ .image_alt }}" />
+  </div>
+</div>
