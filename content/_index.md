@@ -16,4 +16,12 @@ content_blocks:
     tagline: for Dunedin Gardens
     image: /GardeningShears.png
     alt: Gardening Shears
+  - _bookshop_name: colorblock
+    text: Our Services
+    image: /lime.png
+    list:
+      - item: General garden maintenance
+      - item: Lawn care
+      - item: Pruning
+      - item: Weeding
 ---
