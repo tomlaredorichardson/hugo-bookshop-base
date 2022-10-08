@@ -16,15 +16,31 @@ content_blocks:
     tagline: for Dunedin Gardens
     image: /GardeningShears.png
     alt: Gardening Shears
-  - _bookshop_name: colorblock
+  - _bookshop_name: colorblock-rotating-img
     text: Our Services
     color:
-      r: 100
-      g: 100
-      b: 100
+      r: 252
+      g: 128
+      b: 253
+    image: /lime.png
     list:
-      - item: General garden maintenance
-      - item: Lawn care
-      - item: Pruning
-      - item: Weeding
+      - item: Lime spinning
+  - _bookshop_name: spacer
+    style:
+      height: 40
+  - _bookshop_name: leftright
+    title: Left Right Block
+    image: https://placekitten.com/1000/500
+    image_alt: A Kitten
+    tagline: Trying out a leftright block in bookshop
+    flip: true
+  - _bookshop_name: spacer
+    style:
+      height: 40
+  - _bookshop_name: leftright
+    title: Left Right Block
+    image: https://placekitten.com/1000/500
+    image_alt: A Kitten
+    tagline: Trying out a leftright block in bookshop
+    flip: false
 ---
