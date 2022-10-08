@@ -1,0 +1,16 @@
+<div
+  class="c-color-block-rotating"
+  style="background-color: rgb({{ .color.r }},{{ .color.g }},{{ .color.b }})"
+>
+  <div class="container">
+    <div class="color-block-text">
+      <p class="__text">{{ .text }}</p>
+      {{ range .list }}
+      <p class="__subtext">{{ .item }}</p>
+      {{ end }}
+    </div>
+    <div class="image">
+      <img src="{{ .image }}" alt="{{ .alt }}" />
+    </div>
+  </div>
+</div>
