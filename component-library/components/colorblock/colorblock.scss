@@ -3,7 +3,7 @@
   position: relative;
   grid-template-columns: 1fr 1fr;
   min-height: 30rem;
-  background-color: rgb(145, 128, 253);
+  // background-color: rgb(145, 128, 253);
   justify-items: center;
 
   .__text {
@@ -16,24 +16,6 @@
     color: white;
     font-size: 1rem;
     font-weight: bold;
-  }
-
-  .image {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
-    padding: Min(2rem, 4vw) Min(4rem, 8vw);
-    margin-top: 2rem;
-
-    img {
-      position: absolute;
-      width: clamp(200px, 30vw, 300px);
-      height: auto;
-      object-fit: cover;
-      border-radius: 0.25rem;
-    }
   }
 
   .custom-shape-divider-bottom-1665021783 {

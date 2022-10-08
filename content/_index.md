@@ -18,7 +18,10 @@ content_blocks:
     alt: Gardening Shears
   - _bookshop_name: colorblock
     text: Our Services
-    image: /lime.png
+    color:
+      r: 100
+      g: 100
+      b: 100
     list:
       - item: General garden maintenance
       - item: Lawn care

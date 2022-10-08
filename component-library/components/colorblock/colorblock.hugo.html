@@ -1,12 +1,12 @@
-<div class="c-color-block">
+<div
+  class="c-color-block"
+  style="background-color: rgb({{ .color.r }},{{ .color.g }},{{ .color.b }})"
+>
   <div class="color-block-text">
     <p class="__text">{{ .text }}</p>
     {{ range .list }}
     <p class="__subtext">{{ .item }}</p>
     {{ end }}
-  </div>
-  <div class="image">
-    <img src="{{ .image }}" alt="{{ .alt }}" />
   </div>
   <div class="custom-shape-divider-bottom-1665021783">
     <svg
