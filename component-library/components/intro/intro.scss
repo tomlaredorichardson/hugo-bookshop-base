@@ -10,11 +10,11 @@
     justify-content: center;
     width: 50%;
     padding: Min(2rem, 4vw) Min(4rem, 8vw);
-    margin-top: 2rem;
+    margin: 2rem 0;
 
     img {
       position: absolute;
-      width: clamp(200px, 30vw, 300px);
+      width: clamp(80px, 30vw, 300px);
       height: auto;
       object-fit: cover;
       border-radius: 0.25rem;
