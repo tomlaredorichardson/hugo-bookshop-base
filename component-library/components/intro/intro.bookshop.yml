@@ -9,10 +9,11 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  bg_color:
-  heading: "Landscaping"
-  tagline: "done by locals"
-  image: "https://placekitten.com/300/500"
+  bg_color: pink
+  color: rgb(26, 137, 43)
+  heading: Brash Landscapes
+  tagline: caring for dunedin gardens
+  image: "https://placekitten.com/300/300"
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:

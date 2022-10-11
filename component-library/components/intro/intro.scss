@@ -9,13 +9,14 @@
     align-items: center;
     justify-content: center;
     width: 50%;
+    padding: Min(2rem, 4vw) Min(4rem, 8vw);
 
     img {
       width: clamp(80px, 30vw, 300px);
       height: auto;
       max-height: 300px;
       object-fit: cover;
-      border-radius: 0.25rem;
+      border-radius: 50%;
     }
   }
 
