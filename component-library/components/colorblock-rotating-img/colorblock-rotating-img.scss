@@ -1,6 +1,7 @@
 .c-color-block-rotating {
   .container {
     display: grid;
+    justify-items: center;
     grid-template-columns: 1fr 1fr;
     width: 100%;
   }
