@@ -1,35 +1,29 @@
 .intro {
   border-radius: 0.25rem;
   display: flex;
+  align-items: center;
   background-color: rgba(255, 255, 255, 0);
 
   .image {
-    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 50%;
-    padding: Min(2rem, 4vw) Min(4rem, 8vw);
-    margin: 2rem 0;
 
     img {
-      position: absolute;
       width: clamp(80px, 30vw, 300px);
       height: auto;
+      max-height: 300px;
       object-fit: cover;
       border-radius: 0.25rem;
     }
   }
 
   .inner {
-    position: relative;
     display: flex;
-    width: 100%;
-    max-width: 700px;
+    max-width: 1000px;
     flex-direction: column;
-    justify-content: center;
     padding: Min(2rem, 4vw) Min(4rem, 8vw);
-    box-sizing: border-box;
 
     h1 {
       font-size: clamp(15px, 7vw, 80px);
@@ -39,7 +33,6 @@
 
     span {
       font-size: clamp(10px, 3vw, 40px);
-
       color: rgb(59, 59, 61);
       font-weight: bold;
     }
