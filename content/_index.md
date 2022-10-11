@@ -18,29 +18,7 @@ content_blocks:
     alt: Gardening Shears
   - _bookshop_name: colorblock-rotating-img
     text: Our Services
-    color:
-      r: 252
-      g: 128
-      b: 253
-    image: /lime.png
+    bg_color: '#6259f1'
+    image: https://placekitten.com/300/300
     list:
-      - item: Lime spinning
-  - _bookshop_name: spacer
-    style:
-      height: 40
-  - _bookshop_name: leftright
-    title: Left Right Block
-    image: https://placekitten.com/1000/500
-    image_alt: A Kitten
-    tagline: Trying out a leftright block in bookshop
-    flip: true
-  - _bookshop_name: spacer
-    style:
-      height: 40
-  - _bookshop_name: leftright
-    title: Left Right Block
-    image: https://placekitten.com/1000/500
-    image_alt: A Kitten
-    tagline: Trying out a leftright block in bookshop
-    flip: false
 ---
