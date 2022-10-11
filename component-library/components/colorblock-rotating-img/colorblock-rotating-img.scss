@@ -1,6 +1,4 @@
 .c-color-block-rotating {
-  position: relative;
-
   .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -29,10 +27,9 @@
     padding: Min(1rem, 4vw) Min(2rem, 8vw);
 
     img {
-      width: clamp(50px, 20vw, 200px);
+      width: clamp(100px, 20vw, 200px);
       height: auto;
       object-fit: cover;
-      border-radius: 0.25rem;
       animation: rotation 5s infinite linear;
       border-radius: 50%;
     }
