@@ -3,7 +3,7 @@ title: Home
 content_blocks:
   - _bookshop_name: nav
     content:
-      logo: http://placekitten.com/40/40
+      logo: /GardeningShears.png
       links:
         - name: About
           url: /about
