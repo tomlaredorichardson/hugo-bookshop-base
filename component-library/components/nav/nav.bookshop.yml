@@ -40,7 +40,7 @@ _inputs:
     type: range
     options:
       step: 0.1
-      max: 5
+      max: 10
       min: 0
   bg_color:
     type: color
