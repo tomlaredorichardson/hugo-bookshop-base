@@ -4,24 +4,29 @@
     min-height: {{ .styles.min_height }}rem;
   }
 
+  #nav__links {
+    padding: {{ .styles.nav_links.padding }}rem;
+  }
 
   #nav__link {
     color: {{ .styles.nav_links.text_color }};
     font-size: {{ .styles.nav_links.text_size }}rem;
-    padding: {{ .styles.nav_links.padding }}rem;
+  }
+
+  #nav__logo_container {
+    padding: {{ .styles.logo.padding }}rem;
   }
 
   #nav__logo {
     max-width: {{ .styles.logo.max_width }}rem;
-    padding: {{ .styles.logo.padding }}rem;
   }
 </style>
 
 <nav class="c-nav" id="c-nav">
-  <a href="/">
+  <a href="/" id="nav__logo_container">
     <img class="nav__logo" id="nav__logo" src="{{ .content.logo_src }}" />
   </a>
-  <ul class="nav__links">
+  <ul class="nav__links" id="nav__links">
     {{ range .content.links }}
     <li><a id="nav__link" href="{{ .url }}">{{ .name }}</a></li>
     {{ end }}
