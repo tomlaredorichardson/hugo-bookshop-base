@@ -38,7 +38,7 @@ preview:
 _inputs:
   logo:
     type: image
-  logo_min_width:
+  logo_max_width:
     type: range
     options:
       step: 0.1
