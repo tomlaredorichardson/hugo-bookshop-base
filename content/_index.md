@@ -7,13 +7,9 @@ content_blocks:
       bg_color: "#e5e1f6"
       logo:
         max_width:
-        logo_paddingX:
-        logo_paddingY:
       nav_links:
         text_color:
         text_size:
-        nav_links_paddingX:
-        nav_links_paddingY:
     content:
       logo_src: /GardeningShears.png
       links:
