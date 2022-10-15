@@ -3,8 +3,8 @@ title: Home
 content_blocks:
   - _bookshop_name: nav
     styles:
-      min_height:
-      bg_color:
+      min_height: 3
+      bg_color: '#e5e1f6'
     content:
       logo: /GardeningShears.png
       links:
@@ -21,7 +21,8 @@ content_blocks:
     alt: Gardening Shears
   - _bookshop_name: colorblock-rotating-img
     text: Our Services
-    bg_color: "#6259f1"
-    image: https://placekitten.com/300/300
+    bg_color: '#f5bcf3'
+    image: /lime.png
     list:
+      - item: Limes and stuff
 ---
