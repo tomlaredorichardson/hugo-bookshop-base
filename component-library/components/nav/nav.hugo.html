@@ -2,21 +2,23 @@
   #c-nav {
     background-color: {{ .styles.bg_color }};
     min-height: {{ .styles.min_height }}rem;
+  }
 
-    ul li a {
-      color: {{ .styles.text_color }};
-    }
 
-    .__logo {
-      min-width: {{ .styles.logo_min_width }}rem;
-    }
+  .nav__links li a {
+    color: {{ .styles.text_color }};
+  }
+
+  .nav__logo {
+    min-width: {{ .styles.logo_min_width }}rem;
   }
 </style>
+
 <nav class="c-nav" id="c-nav">
   <a href="/">
-    <img class="__logo" src="{{ .content.logo }}" />
+    <img class="nav__logo" src="{{ .content.logo }}" />
   </a>
-  <ul class="__links">
+  <ul class="nav__links">
     {{ range .content.links }}
     <li><a href="{{ .url }}">{{ .name }}</a></li>
     {{ end }}
