@@ -14,11 +14,15 @@ blueprint:
     bg_color:
     logo:
       max_width:
+      logo_paddingX:
+      logo_paddingY:
     nav_links:
       text_color:
       text_size:
+      nav_links_paddingX:
+      nav_links_paddingY:
   content:
-    logo: ""
+    logo_src: ""
     links:
       - name: ""
         url: ""
@@ -39,7 +43,7 @@ preview:
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
-  logo:
+  logo_src:
     type: image
   max_width:
     type: range
@@ -53,13 +57,13 @@ _inputs:
       step: 0.1
       max: 10
       min: 0
-  nav_links_paddingX:
+  logo_paddingY:
     type: range
     options:
       step: 0.1
       max: 10
       min: 0
-  logo_paddingY:
+  nav_links_paddingX:
     type: range
     options:
       step: 0.1
