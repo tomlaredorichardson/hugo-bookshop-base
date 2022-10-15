@@ -5,7 +5,7 @@ content_blocks:
     styles:
       min_height: 3
       bg_color: "#e5e1f6"
-      logo_min_width:
+      logo_max_width:
       text_color:
     content:
       logo: /GardeningShears.png

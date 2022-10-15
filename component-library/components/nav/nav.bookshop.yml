@@ -12,7 +12,7 @@ blueprint:
   styles:
     min_height:
     bg_color:
-    logo_min_width:
+    logo_max_width:
     text_color:
   content:
     logo: ""
