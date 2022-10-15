@@ -12,8 +12,15 @@ blueprint:
   styles:
     min_height:
     bg_color:
-    logo_max_width:
-    text_color:
+    logo:
+      max_width:
+      paddingX:
+      paddingY:
+    nav_links:
+      text_color:
+      text_size:
+      paddingX:
+      paddingY:
   content:
     logo: ""
     links:
@@ -38,7 +45,19 @@ preview:
 _inputs:
   logo:
     type: image
-  logo_max_width:
+  max_width:
+    type: range
+    options:
+      step: 0.1
+      max: 10
+      min: 0
+  paddingX:
+    type: range
+    options:
+      step: 0.1
+      max: 10
+      min: 0
+  paddingY:
     type: range
     options:
       step: 0.1
@@ -55,6 +74,12 @@ _inputs:
     options:
       format: rgba
       alpha: true
+  text_size:
+    type: range
+    options:
+      step: 0.1
+      max: 10
+      min: 0
   text_color:
     type: color
     options:

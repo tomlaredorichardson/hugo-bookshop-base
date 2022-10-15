@@ -6,11 +6,14 @@
 
 
   #nav__link {
-    color: {{ .styles.text_color }};
+    color: {{ .styles.nav_links.text_color }};
+    padding: {{ styles.nav_links.paddingX }} {{ styles.nav_links.paddingY }}rem;
+    font-size: {{ .styles.nav_links.text_size }}rem;
   }
 
   #nav__logo {
-    max-width: {{ .styles.logo_max_width }}rem;
+    max-width: {{ .styles.logo.max_width }}rem;
+    padding: {{ styles.logo.paddingX }} {{ styles.logo.paddingY }}rem;
   }
 </style>
 
