@@ -2,6 +2,9 @@
 title: Home
 content_blocks:
   - _bookshop_name: nav
+    styles:
+      min_height:
+      bg_color:
     content:
       logo: /GardeningShears.png
       links:
@@ -18,7 +21,7 @@ content_blocks:
     alt: Gardening Shears
   - _bookshop_name: colorblock-rotating-img
     text: Our Services
-    bg_color: '#6259f1'
+    bg_color: "#6259f1"
     image: https://placekitten.com/300/300
     list:
 ---

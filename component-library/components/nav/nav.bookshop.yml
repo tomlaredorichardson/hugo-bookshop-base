@@ -9,6 +9,9 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
+  styles:
+    min_height:
+    bg_color:
   content:
     logo: ""
     links:
@@ -33,3 +36,14 @@ preview:
 _inputs:
   logo:
     type: image
+  min_height:
+    type: range
+    options:
+      step: 0.1
+      max: 5
+      min: 0
+  bg_color:
+    type: color
+    options:
+      format: rgba
+      alpha: true

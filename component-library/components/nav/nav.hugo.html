@@ -1,4 +1,10 @@
-<nav class="c-nav">
+<style>
+  #c-nav {
+    background-color: {{ .styles.bg_color }};
+    min-height: {{ .styles.min_height }}rem;
+  }
+</style>
+<nav class="c-nav" id="c-nav">
   <a href="/">
     <img class="__logo" src="{{ .content.logo }}" />
   </a>
