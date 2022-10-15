@@ -7,6 +7,7 @@ content_blocks:
       bg_color: "#e5e1f6"
       logo:
         max_width: 3.3
+        padding:
       nav_links:
         text_color: "#000000"
         text_size: 1.1
