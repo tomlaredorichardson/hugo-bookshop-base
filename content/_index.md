@@ -4,6 +4,7 @@ content_blocks:
   - _bookshop_name: nav
     styles:
       min_height: 3
+      padding:
       bg_color: "#e5e1f6"
       logo:
         max_width: 3.3
