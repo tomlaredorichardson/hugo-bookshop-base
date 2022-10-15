@@ -30,7 +30,7 @@ blueprint:
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
   content:
-    logo: "http://placekitten.com/40/40"
+    logo_src: "http://placekitten.com/40/40"
     links:
       - name: Features
         url: /
