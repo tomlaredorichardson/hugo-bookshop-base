@@ -2,6 +2,14 @@
   #c-nav {
     background-color: {{ .styles.bg_color }};
     min-height: {{ .styles.min_height }}rem;
+
+    li a {
+      color: {{ .styles.text_color }};
+    }
+
+    .logo {
+      min-width: {{ .styles.logo_min_width }}rem;
+    }
   }
 </style>
 <nav class="c-nav" id="c-nav">

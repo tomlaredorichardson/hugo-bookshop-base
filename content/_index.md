@@ -4,7 +4,9 @@ content_blocks:
   - _bookshop_name: nav
     styles:
       min_height: 3
-      bg_color: '#e5e1f6'
+      bg_color: "#e5e1f6"
+      logo_min_width:
+      text_color:
     content:
       logo: /GardeningShears.png
       links:
@@ -21,7 +23,7 @@ content_blocks:
     alt: Gardening Shears
   - _bookshop_name: colorblock-rotating-img
     text: Our Services
-    bg_color: '#f5bcf3'
+    bg_color: "#f5bcf3"
     image: /lime.png
     list:
       - item: Limes and stuff
