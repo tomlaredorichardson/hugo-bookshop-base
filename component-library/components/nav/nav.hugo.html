@@ -5,7 +5,7 @@
   }
 
 
-  #nav__links li a {
+  #nav__link {
     color: {{ .styles.text_color }};
   }
 
@@ -18,9 +18,9 @@
   <a href="/">
     <img class="nav__logo" id="nav__logo" src="{{ .content.logo }}" />
   </a>
-  <ul class="nav__links" id="nav__links">
+  <ul class="nav__links">
     {{ range .content.links }}
-    <li><a href="{{ .url }}">{{ .name }}</a></li>
+    <li><a id="nav__link" href="{{ .url }}">{{ .name }}</a></li>
     {{ end }}
   </ul>
 </nav>
