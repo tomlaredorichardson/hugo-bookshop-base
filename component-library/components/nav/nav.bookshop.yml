@@ -19,7 +19,6 @@ blueprint:
     nav_links:
       text_color:
       text_size:
-      padding:
   content:
     logo_src: ""
     links:

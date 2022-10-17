@@ -1,12 +1,8 @@
 <style>
-  #c-nav {
+  #nav {
     background-color: {{ .styles.bg_color }};
     min-height: {{ .styles.min_height }}rem;
     padding: {{ .styles.padding }}rem;
-  }
-
-  #nav__links {
-    padding: {{ .styles.nav_links.padding }}rem;
   }
 
   #nav__link {
@@ -14,20 +10,20 @@
     font-size: {{ .styles.nav_links.text_size }}rem;
   }
 
-  #nav__logo_container {
-    padding: {{ .styles.logo.padding }}rem;
-  }
-
   #nav__logo {
     max-width: {{ .styles.logo.max_width }}rem;
   }
 </style>
 
-<nav class="c-nav" id="c-nav">
-  <a href="/" id="nav__logo_container">
+<nav class="nav" id="nav">
+  <a href="/">
     <img class="nav__logo" id="nav__logo" src="{{ .content.logo_src }}" />
   </a>
-  <ul class="nav__links" id="nav__links">
+  <input id="menu-toggle" type="checkbox" />
+  <label class="menu-button-container" for="menu-toggle">
+    <div class="menu-button"></div>
+  </label>
+  <ul class="menu" id="menu">
     {{ range .content.links }}
     <li><a id="nav__link" href="{{ .url }}">{{ .name }}</a></li>
     {{ end }}
