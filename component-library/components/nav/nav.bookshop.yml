@@ -15,10 +15,10 @@ blueprint:
     bg_color:
     logo:
       max_width:
-      padding:
+      margin:
     nav_links:
       text_color:
-      text_size:
+      margin:
   content:
     logo_src: ""
     links:
@@ -67,6 +67,12 @@ _inputs:
       max: 10
       min: 0
   padding:
+    type: range
+    options:
+      step: 0.01
+      max: 8
+      min: 0
+  margin:
     type: range
     options:
       step: 0.01
