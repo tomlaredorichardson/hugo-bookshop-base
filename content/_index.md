@@ -13,6 +13,9 @@ content_blocks:
         text_color: "#fdfdfd"
         text_size: 1.1
         margin: 1.07
+      hamburger:
+        margin:
+        width:
     content:
       logo_src: /GardeningShears.png
       links:

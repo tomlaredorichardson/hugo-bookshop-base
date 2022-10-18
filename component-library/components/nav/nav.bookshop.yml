@@ -18,7 +18,11 @@ blueprint:
       margin:
     nav_links:
       text_color:
+      text_size:
       margin:
+    hamburger:
+      margin:
+      width:
   content:
     logo_src: ""
     links:
@@ -44,6 +48,12 @@ _inputs:
   logo_src:
     type: image
   max_width:
+    type: range
+    options:
+      step: 0.1
+      max: 10
+      min: 0
+  width:
     type: range
     options:
       step: 0.1

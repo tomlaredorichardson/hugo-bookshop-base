@@ -16,6 +16,13 @@
     max-width: {{ .styles.logo.max_width }}rem;
     margin-left: {{ .styles.logo.margin }}rem;
   }
+
+  @media (max-width: 700px) {
+    #menu-button-container {
+      right: {{ .styles.hamburger.margin }}rem;
+      width: {{ .styles.hamburger.width }}rem;
+    }
+  }
 </style>
 
 <nav class="nav" id="nav">
@@ -23,7 +30,11 @@
     <img class="nav__logo" id="nav__logo" src="{{ .content.logo_src }}" />
   </a>
   <input id="menu-toggle" type="checkbox" />
-  <label class="menu-button-container" for="menu-toggle">
+  <label
+    class="menu-button-container"
+    id="menu-button-container"
+    for="menu-toggle"
+  >
     <div class="menu-button"></div>
   </label>
   <ul class="menu" id="menu">
