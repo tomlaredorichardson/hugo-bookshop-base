@@ -24,6 +24,8 @@ blueprint:
       margin:
       width:
       color:
+      height:
+      gap:
   content:
     logo_src: ""
     links:
@@ -93,6 +95,18 @@ _inputs:
     options:
       step: 0.01
       max: 8
+      min: 0
+  height:
+    type: range
+    options:
+      step: 0.01
+      max: 10
+      min: 0
+  gap:
+    type: range
+    options:
+      step: 0.01
+      max: 10
       min: 0
   text_color:
     type: color

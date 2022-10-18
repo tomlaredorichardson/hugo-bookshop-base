@@ -27,6 +27,15 @@
     .menu-button::before,
     .menu-button::after {
       background-color: {{ .styles.hamburger.color }};
+      height: {{ .styles.hamburger.height }}px;
+    }
+
+    .menu-button::before {
+      margin-top: -{{ .styles.hamburger.gap }}px;
+    }
+
+    .menu-button::after {
+      margin-top: {{ .styles.hamburger.gap }}px;
     }
 </style>
 
