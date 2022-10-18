@@ -22,7 +22,12 @@
       right: {{ .styles.hamburger.margin }}rem;
       width: {{ .styles.hamburger.width }}rem;
     }
-  }
+
+    .menu-button,
+    .menu-button::before,
+    .menu-button::after {
+      background-color: {{ .styles.hamburger.color }};
+    }
 </style>
 
 <nav class="nav" id="nav">
