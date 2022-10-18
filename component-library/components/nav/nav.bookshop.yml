@@ -106,7 +106,7 @@ _inputs:
     type: range
     options:
       step: 0.01
-      max: 10
+      max: 15
       min: 0
   text_color:
     type: color
