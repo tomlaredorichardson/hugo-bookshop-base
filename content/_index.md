@@ -8,11 +8,11 @@ content_blocks:
       bg_color: "#7ec914"
       logo:
         max_width: 3.3
-        margin-left: 0.33
+        margin: 0.33
       nav_links:
         text_color: "#fdfdfd"
         text_size: 1.1
-        margin-right: 1.07
+        margin: 1.07
     content:
       logo_src: /GardeningShears.png
       links:
