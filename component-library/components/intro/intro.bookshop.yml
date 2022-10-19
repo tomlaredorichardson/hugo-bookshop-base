@@ -13,6 +13,10 @@ blueprint:
     bg_color:
     heading:
       color:
+      font_size:
+        min:
+        view_width:
+        max:
     tagline:
       color: 
   content:
@@ -37,3 +41,21 @@ _inputs:
     options:
       format: rgba
       alpha: true
+  min:
+    type: range
+    options:
+      step: 1
+      max: 40
+      min: 0
+  view_width:
+    type: range
+    options:
+      step: .1
+      max: 15
+      min: 0
+  max:
+    type: range
+    options:
+      step: 1
+      max: 160
+      min: 0

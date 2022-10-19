@@ -37,6 +37,10 @@ content_blocks:
       bg_color:
       heading:
         color:
+        font_size:
+          min:
+          view_width:
+          max:
       tagline:
         color: 
     content:
