@@ -50,17 +50,17 @@ content_blocks:
           max: 88
       image:
         top: 8
-        right: 9
+        right: 34
         opacity: 25
         width:
           min: 32
-          view_width: 47.8
+          view_width: 34
           max: 1200
         border_radius: 50
     content:
       heading: Brash Landscapes
       tagline: caring for dunedin gardens
-      image: https://placekitten.com/300/300
+      image: /GardeningShears.png
   - _bookshop_name: colorblock-rotating-img
     text: Our Services
     bg_color: '#f5bcf3'
