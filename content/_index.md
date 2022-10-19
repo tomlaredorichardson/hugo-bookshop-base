@@ -38,6 +38,7 @@ content_blocks:
       text_max_width: 61
       heading:
         color:
+        vertical_margin:
         font_size:
           min: 16
           view_width: 10
