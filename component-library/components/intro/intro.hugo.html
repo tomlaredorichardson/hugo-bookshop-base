@@ -1,9 +1,23 @@
-<section class="intro" style="background-color: {{ .bg_color }}">
+<style>
+  #intro {
+    background-color: {{ .styles.bg_color }};
+  }
+
+  #heading {
+    color: {{ .styles.heading.color }}
+  }
+
+  #tagline {
+    color: {{ .styles.tagline.color }}
+  }
+</style>
+
+<section class="intro" id="intro">
   <div class="inner">
-    <h1 style="color: {{ .color }}">{{ .heading | markdownify }}</h1>
-    <span>{{ .tagline | markdownify }}</span>
+    <h1 id="heading">{{ .content.heading | markdownify }}</h1>
+    <span id="tagline">{{ .content.tagline | markdownify }}</span>
   </div>
   <div class="image">
-    <img src="{{ .image }}" alt="{{ .alt }}" />
+    <img src="{{ .content.image }}" alt="{{ .content.alt }}" />
   </div>
 </section>

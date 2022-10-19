@@ -9,18 +9,30 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  bg_color: pink
-  color: rgb(26, 137, 43)
-  heading: Brash Landscapes
-  tagline: caring for dunedin gardens
-  image: "https://placekitten.com/300/300"
+  styles:
+    bg_color:
+    heading:
+      color: rgb(26, 137, 43)
+    tagline:
+      color: rgb(26, 137, 43)
+  content:
+    heading: Brash Landscapes
+    tagline: caring for dunedin gardens
+    image: "https://placekitten.com/300/300"
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
+  image:
+    type: image
   bg_color:
+    type: color
+    options:
+      format: rgba
+      alpha: true
+  color:
     type: color
     options:
       format: rgba

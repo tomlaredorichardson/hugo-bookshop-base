@@ -32,11 +32,6 @@ content_blocks:
           url: /contact
         - name: Gallery
           url: /gallery
-  - _bookshop_name: intro
-    heading: Brash Landscaping
-    tagline: for Dunedin Gardens
-    image: /GardeningShears.png
-    alt: Gardening Shears
   - _bookshop_name: colorblock-rotating-img
     text: Our Services
     bg_color: '#f5bcf3'
