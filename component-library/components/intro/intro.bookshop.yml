@@ -59,19 +59,19 @@ _inputs:
     type: range
     options:
       step: 1
-      max: 40
+      max: 100
       min: 0
   view_width:
     type: range
     options:
       step: .1
-      max: 15
+      max: 100
       min: 0
   max:
     type: range
     options:
       step: 1
-      max: 160
+      max: 1200
       min: 0
   top:
     type: range
