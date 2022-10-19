@@ -1,7 +1,7 @@
 <style>
   #intro {
     background-color: {{ .styles.bg_color }};
-    {{if .fit_to_img}}
+    {{if .styles.image.fit_to_img}}
       min-height: calc({{ .styles.image.width.view_width }}vw + {{ .styles.image.top }}px + 8px);
     {{end}}
   }
