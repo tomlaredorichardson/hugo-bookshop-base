@@ -24,6 +24,7 @@ blueprint:
         view_width:
         max:
     image:
+      image_src:
       top:
       right:
       opacity:
@@ -42,7 +43,7 @@ preview:
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
-  image:
+  image_src:
     type: image
   bg_color:
     type: color
