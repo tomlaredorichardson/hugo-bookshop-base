@@ -25,6 +25,7 @@ blueprint:
         view_width:
         max:
     image:
+      fit_to_img:
       image_src:
       top:
       right:
@@ -46,6 +47,8 @@ preview:
 _inputs:
   image_src:
     type: image
+  fit_to_img:
+    type: boolean
   bg_color:
     type: color
     options:

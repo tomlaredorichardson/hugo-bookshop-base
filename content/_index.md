@@ -49,12 +49,13 @@ content_blocks:
           view_width: 2.9
           max: 88
       image:
-        top: 8
-        right: 34
+        fit_to_img: true
+        top: 10
+        right: 10
         opacity: 25
         width:
           min: 32
-          view_width: 34
+          view_width: 60
           max: 1200
         border_radius: 50
     content:

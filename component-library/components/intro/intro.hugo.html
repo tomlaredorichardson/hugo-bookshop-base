@@ -1,8 +1,9 @@
 <style>
   #intro {
     background-color: {{ .styles.bg_color }};
-    /* could do a fit_to_img true false where if false dont do min-height and let over flow*/
-    min-height: calc({{ .styles.image.width.view_width }}vw + {{ .styles.image.top }}px + 8px);
+    {{if .fit_to_img}}
+      min-height: calc({{ .styles.image.width.view_width }}vw + {{ .styles.image.top }}px + 8px);
+    {{end}}
   }
 
   #inner {
