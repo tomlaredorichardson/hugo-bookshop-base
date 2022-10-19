@@ -82,13 +82,13 @@ _inputs:
     options:
       step: 1
       max: 500
-      min: 0
+      min: -100
   right:
     type: range
     options:
       step: 1
       max: 500
-      min: 0
+      min: -100
   opacity:
     type: range
     options:
