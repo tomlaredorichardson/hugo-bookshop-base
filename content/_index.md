@@ -49,9 +49,9 @@ content_blocks:
           view_width: 2.9
           max: 88
       image:
-        fit_to_img: true
-        top: 10
-        right: 10
+        fit_to_img: false
+        top: -30
+        right: -10
         opacity: 25
         width:
           min: 32
