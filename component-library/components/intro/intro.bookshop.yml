@@ -48,7 +48,7 @@ _inputs:
   image_src:
     type: image
   fit_to_img:
-    type: boolean
+    type: switch
   bg_color:
     type: color
     options:
