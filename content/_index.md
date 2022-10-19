@@ -35,7 +35,7 @@ content_blocks:
   - _bookshop_name: intro
     styles:
       bg_color:
-      text_max_width:
+      text_max_width: 61
       heading:
         color:
         font_size:
