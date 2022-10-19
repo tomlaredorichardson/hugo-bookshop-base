@@ -42,7 +42,11 @@ content_blocks:
           view_width:
           max:
       tagline:
-        color: 
+        color:
+        font_size:
+          min:
+          view_width:
+          max:
     content:
       heading: Brash Landscapes
       tagline: caring for dunedin gardens

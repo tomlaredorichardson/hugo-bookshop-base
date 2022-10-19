@@ -19,6 +19,10 @@ blueprint:
         max:
     tagline:
       color: 
+      font_size:
+        min:
+        view_width:
+        max:
   content:
     heading: Brash Landscapes
     tagline: caring for dunedin gardens
