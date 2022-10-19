@@ -32,6 +32,17 @@ content_blocks:
           url: /contact
         - name: Gallery
           url: /gallery
+  - _bookshop_name: intro
+    styles:
+      bg_color:
+      heading:
+        color:
+      tagline:
+        color: 
+    content:
+      heading: Brash Landscapes
+      tagline: caring for dunedin gardens
+      image: "https://placekitten.com/300/300"
   - _bookshop_name: colorblock-rotating-img
     text: Our Services
     bg_color: '#f5bcf3'

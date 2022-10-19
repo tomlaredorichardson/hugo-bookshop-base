@@ -2,7 +2,7 @@
 spec:
   structures:
     - content_blocks
-  label: "Intro"
+  label: "intro"
   description: "Overview section"
   icon: "receipt"
   tags:
@@ -12,9 +12,9 @@ blueprint:
   styles:
     bg_color:
     heading:
-      color: rgb(26, 137, 43)
+      color:
     tagline:
-      color: rgb(26, 137, 43)
+      color: 
   content:
     heading: Brash Landscapes
     tagline: caring for dunedin gardens
