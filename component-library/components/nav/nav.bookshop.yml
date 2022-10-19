@@ -13,6 +13,10 @@ blueprint:
     min_height:
     padding:
     bg_color:
+    shadow:
+      offset:
+      blur:
+      color:
     logo:
       max_width:
       margin:
@@ -51,6 +55,18 @@ _inputs:
   logo_src:
     type: image
   max_width:
+    type: range
+    options:
+      step: 0.1
+      max: 10
+      min: 0
+  offset:
+    type: range
+    options:
+      step: 0.1
+      max: 10
+      min: 0
+  blur:
     type: range
     options:
       step: 0.1

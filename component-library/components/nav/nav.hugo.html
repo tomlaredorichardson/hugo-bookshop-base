@@ -3,6 +3,7 @@
     background-color: {{ .styles.bg_color }};
     min-height: {{ .styles.min_height }}rem;
     padding: {{ .styles.padding }}rem;
+    box-shadow: 0 {{ .styles.shadow.offset }}px {{ .styles.shadow.blur }}px {{ .styles.shadow.color }};
   }
 
   #nav__link {
