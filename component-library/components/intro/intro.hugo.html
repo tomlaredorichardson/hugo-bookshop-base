@@ -13,8 +13,9 @@
   #heading {
     color: {{ .styles.heading.color }};
     font-size: clamp({{ .styles.heading.font_size.min }}px, {{ .styles.heading.font_size.view_width }}vw, {{ .styles.heading.font_size.max }}px);
-    margin: {{ .styles.heading.vertical_margin }}rem 0;
-    line-height: 0.8;
+    margin-top: {{ .styles.heading.margin_top }}rem;
+    margin-bottom: {{ .styles.heading.margin_bottom }}rem;
+    line-height: {{ styles.heading.line_height }};
   }
 
   #tagline {

@@ -38,7 +38,9 @@ content_blocks:
       text_max_width: 61
       heading:
         color:
-        vertical_margin:
+        margin_top:
+        margin_bottom:
+        line_height:
         font_size:
           min: 16
           view_width: 10
