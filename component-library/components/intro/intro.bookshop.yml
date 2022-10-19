@@ -23,6 +23,15 @@ blueprint:
         min:
         view_width:
         max:
+    image:
+      top:
+      right:
+      opacity:
+      width:
+        min:
+        view_width:
+        max:
+      border_radius:
   content:
     heading: Brash Landscapes
     tagline: caring for dunedin gardens
@@ -62,4 +71,28 @@ _inputs:
     options:
       step: 1
       max: 160
+      min: 0
+  top:
+    type: range
+    options:
+      step: 1
+      max: 500
+      min: 0
+  right:
+    type: range
+    options:
+      step: 1
+      max: 500
+      min: 0
+  opacity:
+    type: range
+    options:
+      step: 1
+      max: 100
+      min: 0
+  border_radius:
+    type: range
+    options:
+      step: 1
+      max: 50
       min: 0

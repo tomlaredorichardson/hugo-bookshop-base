@@ -1,28 +1,22 @@
 .intro {
-  border-radius: 0.25rem;
+  position: relative;
   display: flex;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0);
+  overflow: hidden;
 
   .image {
+    position: absolute;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
-    padding: Min(2rem, 4vw) Min(4rem, 8vw);
-
+    z-index: -1;
+    
     img {
-      width: clamp(80px, 30vw, 300px);
       height: auto;
-      max-height: 300px;
       object-fit: cover;
-      border-radius: 50%;
     }
   }
 
   .inner {
     display: flex;
-    max-width: 1000px;
     flex-direction: column;
     padding: Min(2rem, 4vw) Min(4rem, 8vw);
 

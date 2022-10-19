@@ -1,6 +1,11 @@
 <style>
   #intro {
     background-color: {{ .styles.bg_color }};
+    min-height: calc(40vw + 3px);
+  }
+
+  #inner {
+    max-width: 20rem;
   }
 
   #heading {
@@ -12,14 +17,24 @@
     color: {{ .styles.tagline.color }};
     font-size: clamp({{ .styles.tagline.font_size.min }}px, {{ .styles.tagline.font_size.view_width }}vw, {{ .styles.tagline.font_size.max }}px);
   }
+  #image {
+    top: {{ .styles.image.top }}px;
+    right: {{ .styles.image.right }}px;
+    opacity: {{ .styles.image.opacity }}%;
+  }
+
+  #img {
+    width: clamp({{ .styles.image.width.min }}px, {{ .styles.image.width.view_width }}vw, {{ .styles.image.width.max }}px);
+    border-radius: {{ .styles.image.border_radius }}%;
+  }
 </style>
 
 <section class="intro" id="intro">
-  <div class="inner">
+  <div class="inner" id="inner">
     <h1 id="heading">{{ .content.heading | markdownify }}</h1>
     <span id="tagline">{{ .content.tagline | markdownify }}</span>
   </div>
-  <div class="image">
-    <img src="{{ .content.image }}" alt="{{ .content.alt }}" />
+  <div class="image" id="image">
+    <img id="img" src="{{ .content.image }}" alt="{{ .content.alt }}" />
   </div>
 </section>
